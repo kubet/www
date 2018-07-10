@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.logo {
+    width: 60px;
+    height: 41px;
+}
+
+/* resize images */
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+/*header
+===============*/
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 1em;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+    margin: 1em;
+
+}
+
+nav a {
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding: 0.5em;
+    color: #fff;
+}
+
+/*home-hero
+===============*/
+
+.home-hero {
+    background-image: url(img/background.jpg);
+    padding: 15em 0em;
+    background-repeat: no-repeat;
+    background-size:cover
+}
+
+nav a:hover,
+nav a:focus{
+    color:#ddd;
+}
+
+.title{
+font-size: 2.5rem;
+
+}
+
+.title span {
+    font-weight: 300;
+    display: block;
+    font-size: 0.8em;
+}
+
+.home-about-box{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.button{
+    font-weight: 800;
+    display: flex;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    background: #ecf0f1;
+    align-items: center;
+    justify-content: center;
+    height:60px; 
+    width:140px; 
+    margin: 10px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#3d3d3d;
+    color: white;
+    text-align: center;
+}
+.che {
+    color:#fff200;
+    text-decoration: none;
+    
+}
